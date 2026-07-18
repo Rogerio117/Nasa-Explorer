@@ -1,0 +1,13 @@
+# API keys
+.env
+js/config.js
+
+# VS Code
+.vscode/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Node (por si después usas npm)
+node_modules/
