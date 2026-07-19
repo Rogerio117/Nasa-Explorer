@@ -250,3 +250,44 @@ body {
   font-size: 0.85rem;
   margin-top: 8px;
 }
+
+/* ================================
+   NEO
+================================ */
+.neo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.neo-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.neo-card h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+
+.neo-card p {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+}
+
+.neo-card .hazardous {
+  color: var(--nasa-red);
+  font-weight: 600;
+}
+
+.neo-card .safe {
+  color: #4ade80;
+  font-weight: 600;
+}
